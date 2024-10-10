@@ -3,7 +3,9 @@
 delete(gcp('nocreate'));
 parpool
 
-NSim = 20;
+NSim = 30;
+
+rand(1,2024);
 
 parfor nsim = 1:1:NSim
 
